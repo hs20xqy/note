@@ -1,1 +1,4 @@
-1.3个核心包 logback-core 、logback-classic 、logback-access
+1. 3个核心包 logback-core 、logback-classic 、logback-access 
+2. configuration主节点，包含三个子节点 appender、logger、layout
+3. appender 属性 class 指定使用哪种appender（常用Console、file、rollingFile），name唯一名称
+4. logger 属性 name 、[level(级别)] 、[addvitity(是否向上级传递)]， 子节点appender-ref指定appender
